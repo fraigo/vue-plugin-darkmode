@@ -1,0 +1,32 @@
+{
+  "name": "vue-plugin-darkmode",
+  "version": "1.0.0",
+  "description": "allows toggling dark mode based on user preference or ",
+  "main": "vite.config.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraigo/vue-plugin-darkmode.git"
+  },
+  "keywords": [
+    "vue",
+    "vite",
+    "plugin",
+    "darkmode"
+  ],
+  "author": "Francisco Igor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fraigo/vue-plugin-darkmode/issues"
+  },
+  "homepage": "https://github.com/fraigo/vue-plugin-darkmode#readme",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "vite": "^6.3.5"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  }
+}
