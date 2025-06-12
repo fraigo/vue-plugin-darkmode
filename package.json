@@ -1,7 +1,7 @@
 {
   "name": "vue-plugin-darkmode",
   "version": "1.0.0",
-  "description": "allows toggling dark mode based on user preference or ",
+  "description": "allows toggling dark mode based on user preference or browser settings",
   "main": "vite.config.js",
   "scripts": {
     "build": "vite build"
@@ -12,6 +12,8 @@
   },
   "keywords": [
     "vue",
+    "tailwind",
+    "dark",
     "vite",
     "plugin",
     "darkmode"
