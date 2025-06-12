@@ -1,6 +1,6 @@
 {
   "name": "vue-plugin-darkmode",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "allows toggling dark mode based on user preference or browser settings",
   "main": "src/index.js",
   "scripts": {
