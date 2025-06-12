@@ -69,6 +69,21 @@ function install(app, options) {
 
     // Set current mode on load
     darkModeSetup();
+
+    if (window.matchMedia) {
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+            console.log("System dark mode preference changed:", e.matches);
+            if (!localStorage.theme) {
+                darkMode.value = isDarkMode();
+                document.documentElement.classList.toggle(
+                    "dark",
+                    darkMode.value
+                );
+            } else {
+                setDarkMode(e.matches);
+            }
+        })
+    }
 }
 
 export default  {
