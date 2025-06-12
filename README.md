@@ -1,6 +1,6 @@
 # vue-plugin-darkmode
 
-# Dark Mode Plugin for Vue.js
+Dark Mode Plugin for Vue.js
 
 * This plugin allows toggling dark mode based on user preference or 
 system settings.
